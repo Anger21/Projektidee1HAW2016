@@ -1,4 +1,4 @@
-=== Projektidee Anger21, 2016-04-05 ==
+﻿=== Projektidee Anger21, 2016-04-05 ==
 
 Es besteht zurzeit keine Projektidee. Es wird aktualisiert, sobald eine Projektidee vorhanden ist.
 
@@ -81,3 +81,32 @@ Es ist dabei sehr wahrscheinlich, dass Sie (vielleicht auch erst später währen
 
 Viele Grüße,
 Markus Alpers
+
+
+=== Response Anger21, 2016-04-18 ===
+
+Ich habe Ihr Feedback gelesen, jedoch möchte ich das vorgeschalgene Spiel nicht umsetzen. Dafür habe ich selber nun eine Projektidee entwickelt.
+Man kann die Idee als Kartenspiel, als 2D- oder 3D- oder Smartphone-Game umsetzen.
+
+=== Eigene Projektidee ===
+
+In meiner Idee geht es darum, dass man zunächst einen Charakter erstellt. 
+Auf das Visuelle kommt es nicht an, man bestimmt lediglich zum Anfang hin, welches Haupt- und Sub-Element und natürlich welchen Namen man im Spiel haben möchte
+- Hauptelemente sind: Feuer, Wasser, Natur
+- Subelemente sind Licht und Dunkelheit. 
+-- Feuer > Natur, Wasser > Feuer, Natur > Wasser und Licht > Dunkelheit, Dunkelheit > Licht.
+Außerdem kann der Charakter Erfahrung sammeln und sie auf seine Skillpunkte legen. 1 Skillpunkt pro Levelaufstieg und bei jedem dritten Level 2 Skillpunkte.
+- Skillpunkte: Stärke = physischer Schaden, Verteidigung, Schnelligkeit, Intelligenz = magischer Schaden. 
+Zusätzlich kann er auch Ausrüstung tragen. Dafür sind 3 Slots eingerichtet.
+
+
+Grundsätzlich geht es darum eine vorgegebene Welt zu erkunden und dabei:
+- Secrets zu finden (z.B. Meilensteine der fiktiven Geschichte)
+- Endbosse/Götter zu besiegen und weitere Areale freizuschalten
+
+Man kann im Spiel Quests erfüllen, die einem mithilfe der Belohnungen helfen im Spiel schneller bzw. besser voranzuschreiten.
+- Darunter einmalige und wiederholbare Quests. Einmalige sind wertvoller als wiederholbare.
+Neben den Quests gibt es Minibosse und Meister. 
+- Minibosse geben einem wertvolle Ausrüstung, Meister hingegen verbessern das Haupt- und/oder Subelement.
+Zu guter Letzt existieren die Endbosse und Götter.
+- Endbosse geben einem zusätzliche Skillpunkte, Götter verleihen dem Spieler zusätzliche Kräfte (z.B. spezielle Attacke oder Flügel zum überwinden von Hindernissen)
