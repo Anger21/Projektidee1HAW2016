@@ -83,15 +83,18 @@ Viele Grüße,
 Markus Alpers
 
 
-=== Response Anger21, 2016-04-18 ===
+=== Response Anger21, 2016-04-18 | Update 2016-04-24 ===
 
 Ich habe Ihr Feedback gelesen, jedoch möchte ich das vorgeschalgene Spiel nicht umsetzen. Dafür habe ich selber nun eine Projektidee entwickelt.
 Man kann die Idee als Kartenspiel, als 2D- oder 3D- oder Smartphone-Game umsetzen.
 
 === Eigene Projektidee ===
 
+Name der Idee: Relikte der Zeit
+
+
 In meiner Idee geht es darum, dass man zunächst einen Charakter erstellt. 
-Auf das Visuelle kommt es nicht an, man bestimmt lediglich zum Anfang hin, welches Haupt- und Sub-Element und natürlich welchen Namen man im Spiel haben möchte
+Auf das Visuelle kommt es nicht an, man bestimmt lediglich zum Anfang hin, welches Haupt- und Sub-Element, die zum Kämpfen genutzt werden, und natürlich welchen Namen man im Spiel haben möchte
 - Hauptelemente sind: Feuer, Wasser, Natur
 - Subelemente sind Licht und Dunkelheit. 
 -- Feuer > Natur, Wasser > Feuer, Natur > Wasser und Licht > Dunkelheit, Dunkelheit > Licht.
@@ -110,3 +113,56 @@ Neben den Quests gibt es Minibosse und Meister.
 - Minibosse geben einem wertvolle Ausrüstung, Meister hingegen verbessern das Haupt- und/oder Subelement.
 Zu guter Letzt existieren die Endbosse und Götter.
 - Endbosse geben einem zusätzliche Skillpunkte, Götter verleihen dem Spieler zusätzliche Kräfte (z.B. spezielle Attacke oder Flügel zum überwinden von Hindernissen)
+
+
+
+
+
+Interaktionen:
+
+Startscreen, durch das die Spielewelt betreten werden kann:
+- Abfrage nach erstellten Charakter
+-- Wenn erstellt und erstellten Charakter ausgewählt 
+---> Eintritt in Spielewelt
+-- Wenn nicht erstellt
+---> Erstellung eines Charakters
+---> Option zur Rückkehr zum Startscreen
+
+
+In der Spielewelt:
+
+Menü, welches über ein Feld geöffnet werden kann, zu einem Menü-Overview führt und verschiedene Inhalte hat:
+- Charakter
+-- Status des Charakters
+--- Option zur Schließung dieses Inhalts, Rückkehr zum Menü-Overview
+- Inventar
+-- derzeit im Inventar vorhandene Items
+--- Option zur Schließung dieses Inhalts, Rückkehr zum Menü-Overview
+- Einstellungen
+-- Anpassung der visuellen, audio- und steuertechnischen Elemente
+--- Option zur Schließung dieses Inhalts, Rückkehr zum Menü-Overview
+usw.
+
+Protokoll, dass derzeitige Reise aufzeichnet und über ein Feld maximiert und minimiert werden kann
+- hilft Spieler bei langen Pausen wieder ins Spiel zu finden
+
+Bewegung in offener Welt, in alle Himmelsrichtungen und Funktionen fürs Ducken bzw. Springen
+- Bewegung: kurzzeitig, rasche Bewegungen möglich
+- Springen: sehr hohes Springen ist möglich, kostet aber etwas Zeit
+- Bei Storytechnischen Events:
+-- Auswahlfeld1 bei dem das entsprechende Objekt untersucht werden kann
+-- Auswahlfeld2 bei dem das Objekt aufgenommen werden kann und im Inventar verfrachtet wird
+-- Auswahlfeld3 aktiviert Interaktion zwischen Charakter/Spieler und NPC
+-- Auswahlfelder verschwinden, sobald man sich von dem Ziel entfernt
+
+
+Kampf über eine Angriffsfläche und Verteidigungsfläche, außerdem werden Ducken und Springen erweitert:
+- im Kampf:
+-- Angriff: Angriff kann stärker werden, wenn Fläche gewisse Zeit lang gehalten wird
+-- Verteidung: kann kurzzeitig abgelegt werden, Angriffsintervalle verkürzen sich
+-- Ducken: bei Bewegung kann nun gerollt werden
+-- Springen: bei Bewegung kann Vorwärtssprung machen
+- nach Kampf:
+-- Aufnahmefeld von Drops/Belohnungen
+-- Ducken und Springen verlieren die Erweiterung wieder
+
