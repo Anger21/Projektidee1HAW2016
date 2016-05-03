@@ -92,7 +92,6 @@ Man kann die Idee als Kartenspiel, als 2D- oder 3D- oder Smartphone-Game umsetze
 
 Name der Idee: Relikte der Zeit
 
-
 In meiner Idee geht es darum, dass man zunächst einen Charakter erstellt. 
 Auf das Visuelle kommt es nicht an, man bestimmt lediglich zum Anfang hin, welches Haupt- und Sub-Element, die zum Kämpfen genutzt werden, und natürlich welchen Namen man im Spiel haben möchte
 - Hauptelemente sind: Feuer, Wasser, Natur
@@ -101,7 +100,6 @@ Auf das Visuelle kommt es nicht an, man bestimmt lediglich zum Anfang hin, welch
 Außerdem kann der Charakter Erfahrung sammeln und sie auf seine Skillpunkte legen. 1 Skillpunkt pro Levelaufstieg und bei jedem dritten Level 2 Skillpunkte.
 - Skillpunkte: Stärke = physischer Schaden, Verteidigung, Schnelligkeit, Intelligenz = magischer Schaden. 
 Zusätzlich kann er auch Ausrüstung tragen. Dafür sind 3 Slots eingerichtet.
-
 
 Grundsätzlich geht es darum eine vorgegebene Welt zu erkunden und dabei:
 - Secrets zu finden (z.B. Meilensteine der fiktiven Geschichte)
@@ -114,10 +112,6 @@ Neben den Quests gibt es Minibosse und Meister.
 Zu guter Letzt existieren die Endbosse und Götter.
 - Endbosse geben einem zusätzliche Skillpunkte, Götter verleihen dem Spieler zusätzliche Kräfte (z.B. spezielle Attacke oder Flügel zum überwinden von Hindernissen)
 
-
-
-
-
 Interaktionen:
 
 Startscreen, durch das die Spielewelt betreten werden kann:
@@ -127,7 +121,6 @@ Startscreen, durch das die Spielewelt betreten werden kann:
 -- Wenn nicht erstellt
 ---> Erstellung eines Charakters
 ---> Option zur Rückkehr zum Startscreen
-
 
 In der Spielewelt:
 
@@ -155,7 +148,6 @@ Bewegung in offener Welt, in alle Himmelsrichtungen und Funktionen fürs Ducken 
 -- Auswahlfeld3 aktiviert Interaktion zwischen Charakter/Spieler und NPC
 -- Auswahlfelder verschwinden, sobald man sich von dem Ziel entfernt
 
-
 Kampf über eine Angriffsfläche und Verteidigungsfläche, außerdem werden Ducken und Springen erweitert:
 - im Kampf:
 -- Angriff: Angriff kann stärker werden, wenn Fläche gewisse Zeit lang gehalten wird
@@ -166,3 +158,35 @@ Kampf über eine Angriffsfläche und Verteidigungsfläche, außerdem werden Duck
 -- Aufnahmefeld von Drops/Belohnungen
 -- Ducken und Springen verlieren die Erweiterung wieder
 
+===================================
+=== Feedback Alpers, 2016-05-03 ===
+===================================
+
+Ja, das wäre eine mögliche Projektidee.
+
+Sie haben sich viele Gedanken gemacht und diese in einer Art formuliert, wie es für die Entwicklung eines Computerspiels nötig ist. Damit haben Sie ein wichtiges Ziel des Projekts erreicht. Leider ist es momentan für einen Außenstehenden relativ unübersichtlich. Das beginnt damit, dass Sie die eigentliche Spielidee erst mitten in der Aufstellung erklären, was schade ist, weil dieser eine Satz sehr prägnant das bisher konzipierte Spiel zusammenfasst:
+
+-> Grundsätzlich geht es darum eine vorgegebene Welt zu erkunden und dabei [sowohl] Secrets zu finden [als auch] Endbosse/Götter zu besiegen und weitere Areale freizuschalten. <-
+
+Hier schreibe ich "möglich", weil es zwei Dinge gibt, die Sie noch ausarbeiten müssen, damit es eine Anwendung wird, die sowohl die Anforderungen im Bereich webbasiert als auch interaktiv erfüllt. Die folgenden Anmerkungen ergeben sich daraus, dass Sie bislang die webbasierten als auch die interaktiven Elemente noch nicht beschrieben haben:
+
+- Interaktionsmöglichkeiten: Bislang wirkt es so, als wenn die Reaktion des Programms wie im klassischen EVA-Prinzip verläuft. (Wenn Sie sich hier wundern, weil das bei den meisten Computerspielen so ist: Genau da liegt der Hase im Pfeffer, bzw. genau deshalb gibt es kaum noch single-Player Spiele, die Spieler langfristig fesseln.)
+- Webbasiert: Momentan wirkt es so, als wenn das Spiel von einem Spieler alleine gespielt werden kann. Webbasiert bedeutet bei Spielen u.a., dass mehrere Spieler "gleichzeitig" in einer gemeinsamen Spielwelt unterwegs sein können, während Sie sich an beliebigen Orten auf der Welt befinden.
+
+Erweitern Sie Ihre Beschreibung bitte so, dass die geforderte Interaktion und Webbasierung erkennbar ist.
+
+Wenn Sie das erledigt haben, zerlegen Sie die Beschreibung bitte in drei Teile, bzw. arbeiten Sie die Punkte nochmal nach:
+1.) Die eigentliche Beschreibung des Spiels. (Zusammenfassung in zwei oder drei Sätzen sowie eine etwas ausführlichere Version.) Speichern Sie diese am Anfang dieser Datei, damit es das erste ist, was jemand sieht, der die Datei öffnet.
+2.) Die strukturellen Elemente: Alles, was Sie unter diesem Oberbegriff sammeln sollte anschließend als Teil der strukturellen Elemente in strukt.html integrierte werden. Ist es dort schon enthalten, dann brauchen Sie es hier nicht nochmal anzugeben.
+3.) Die Regeln und Abläufe verlagern Sie bitte ebenfalls in die Datei strukt.html, aber fügen Sie sie unter der Überschrift === Regeln und Abläufe === ans Ende der Aufstellung der strukturellen Elemente an. Denn damit arbeiten Sie später, wenn Sie PHP programmieren.
+
+Wertung 2: Projektbeschreibung: gesamt: 3 / 10
+- Pro Interaktionsmöglichkeit: 0 
+- Knappe aber klare Beschreibung: 3
+- Werbeslogans u.ä.: 0 
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
+
+=====================
+=== Feedback Ende ===
+=====================
